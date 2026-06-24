@@ -13,3 +13,18 @@ em.label {
 .label:not(g) {
   font-size: 0.7rem !important;
 }
+
+// ============================================
+// 본문 스크린샷 이미지 — 구분용 테두리·그림자·여백
+// ============================================
+// .main-content img = 본문 콘텐츠 이미지만(헤더/사이드바 아이콘 제외).
+// 다중 이미지 스텝(예: step3·14)에서 이미지끼리 시각적으로 분리되도록.
+.main-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin: 0.6rem auto 1.2rem; // 좌우 auto = 가운데 정렬
+}
