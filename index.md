@@ -32,9 +32,9 @@ flowchart LR
 | 교시 | 파트 | 랩 |
 |---|---|---|
 | 오프닝 | — | [생태계 빅픽처 + PAD 시연](./docs/opening.html) |
-| 오전 | **1부. 에이전트** | [Lab 1. 환경 받기](./docs/part1/lab1.html) |
-| 오전 | 1부 | [Lab 2. 에이전트 빚기](./docs/part1/lab2.html) |
-| 오전 | 1부 | [Lab 3. 에이전트 부리기](./docs/part1/lab3.html) |
+| 오전 | **1부. 에이전트** | [Lab 1. 환경 초기화](./docs/part1/lab1.html) |
+| 오전 | 1부 | [Lab 2. 에이전트 구성](./docs/part1/lab2.html) |
+| 오전 | 1부 | [Lab 3. 커넥터 구성](./docs/part1/lab3.html) |
 | — | 점심 | |
 | 오후 | **2부. 흐름** | [Lab 4. 적재 흐름](./docs/part2/lab4.html) |
 | 오후 | 2부 | [Lab 5. 승인 흐름](./docs/part2/lab5.html) |
