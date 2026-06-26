@@ -15,6 +15,73 @@ em.label {
 }
 
 // ============================================
+// 코드블록 — 다크 테마 (Catppuccin Mocha 팔레트)
+// ============================================
+// 폰트 스택: D2Coding(설치된 경우) → Cascadia Code → Consolas → 시스템 모노
+// 가로 스크롤 제거: pre-wrap + break-word
+
+// 외부 래퍼만 시각 컨테이너 — 배경·라운딩·클리핑 담당
+.main-content div.highlighter-rouge {
+  background: #1e1e2e;
+  border-radius: 8px;
+  margin: 1.2rem 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+}
+
+// 중간 div.highlight — 투명, 여백 없음 (테마 특이도 0,0,2 압도용으로 0,1,2)
+.main-content div.highlighter-rouge div.highlight {
+  background: transparent !important;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+
+// pre — 패딩·폰트·색상만
+.main-content .highlight pre,
+.main-content .highlight pre.highlight {
+  background: transparent !important;
+  color: #cdd6f4 !important;
+  font-size: 0.75rem;
+  line-height: 1.65;
+  padding: 14px 16px;
+  border-radius: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: hidden;
+  border: none;
+  margin: 0;
+}
+
+// code 안의 em 곱연산 방지 — 0.75em×0.75em = 9px 되는 것 차단
+.main-content .highlight pre code {
+  font-size: 0.75rem;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+// Rouge 구문 강조 스팬 → 다크 배경 재정의
+.main-content .highlight span { color: #cdd6f4; }
+.main-content .highlight .c,
+.main-content .highlight .c1,
+.main-content .highlight .cm  { color: #6c7086; }  // 주석 (회색)
+.main-content .highlight .k,
+.main-content .highlight .kd  { color: #89b4fa; }  // 키워드 (파랑)
+.main-content .highlight .s,
+.main-content .highlight .s1,
+.main-content .highlight .s2  { color: #a6e3a1; }  // 문자열 (초록)
+.main-content .highlight .o   { color: #89dceb; }  // 연산자 (하늘)
+.main-content .highlight .mf,
+.main-content .highlight .mi  { color: #fab387; }  // 숫자 (주황)
+.main-content .highlight .n,
+.main-content .highlight .na,
+.main-content .highlight .nb  { color: #cdd6f4; }  // 이름 (기본)
+.main-content .highlight .p   { color: #cdd6f4; }  // 구두점
+
+// ============================================
 // 본문 스크린샷 이미지 — 구분용 테두리·그림자·여백
 // ============================================
 // .main-content img = 본문 콘텐츠 이미지만(헤더/사이드바 아이콘 제외).

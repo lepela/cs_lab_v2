@@ -25,22 +25,19 @@ flowchart LR
 
 ---
 
-## 과정 구성 (5.5시간)
+## 과정 구성 
 
 각 랩은 **타이머**로 페이스를 맞추며 진행합니다.
 
-| 교시 | 파트 | 랩 |
-|---|---|---|
-| 오프닝 | — | [생태계 빅픽처 + PAD 시연](./docs/opening.html) |
-| 오전 | **1부. 에이전트** | [Lab 1. 환경 초기화](./docs/part1/lab1.html) |
-| 오전 | 1부 | [Lab 2. 에이전트 구성](./docs/part1/lab2.html) |
-| 오전 | 1부 | [Lab 3. 커넥터 구성](./docs/part1/lab3.html) |
-| — | 점심 | |
-| 오후 | **2부. 흐름** | [Lab 4. 적재 흐름](./docs/part2/lab4.html) |
-| 오후 | 2부 | [Lab 5. 승인 흐름](./docs/part2/lab5.html) |
-| 오후 | 2부 | [Lab 6. 면접 확정 — 흐름](./docs/part2/lab6.html) |
-| 오후 | 2부 | [Lab 7. 면접 확정 — 토픽](./docs/part2/lab7.html) |
-| 마무리 | — | [피날레 — Power BI로 보는 채용 현황](./docs/finale.html) |
+| 파트 | 랩 |
+|---|---|
+| **1부. 에이전트** | [Lab 1. 환경 초기화](./docs/part1/lab1.html) |
+|  | [Lab 2. 에이전트 구성](./docs/part1/lab2.html) |
+|  | [Lab 3. 커넥터 구성](./docs/part1/lab3.html) |
+| **2부. 흐름** | [Lab 4. 적재 흐름](./docs/part2/lab4.html) |
+|  | [Lab 5. 승인 흐름](./docs/part2/lab5.html) |
+|  | [Lab 6. 면접 확정 — 흐름](./docs/part2/lab6.html) |
+|  | [Lab 7. 면접 확정 — 토픽](./docs/part2/lab7.html) |
 
 ---
 
@@ -60,6 +57,6 @@ flowchart LR
 {: .note }
 이 과정의 지원자 데이터(이름·이메일·이력서)는 모두 AI가 생성한 **가상 인물**의 데이터입니다. 실제 개인 정보를 시스템에 업로드하지 마세요.
 
-준비되셨나요? 왼쪽에서 **오프닝**부터 시작하세요.
 
-[오프닝 시작하기 →](./docs/opening.html){: .btn .btn-purple }
+
+[Part 1 시작하기 →](./docs/part1/index.html){: .btn .btn-purple }
