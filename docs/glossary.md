@@ -1,6 +1,6 @@
 ---
 title: 부록. 용어집
-nav_order: 4
+nav_order: 5
 ---
 
 # 부록. 용어집 📚
