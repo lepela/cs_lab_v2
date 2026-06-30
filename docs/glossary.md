@@ -39,4 +39,5 @@ nav_order: 5
 | <span id="term-rubric">**평가 루브릭**</span> | 지원자 적합도를 등급으로 환산하는 채점 규칙 문서. 5개 축(R1 직군 요건·R2 경력 레벨·R3 성과·R4 협업·R5 인재상)으로 구성되며, 에이전트의 적합도 평가(C2)가 이 루브릭을 Knowledge로 참조해 등급을 산출한다. Knowledge 4종의 키스톤 역할을 한다 (Lab 2·3) |
 | <span id="term-citizen-dev">**시티즌 개발자**</span> | 전문 프로그래머가 아니지만 로우코드·노코드 도구를 활용해 업무 자동화를 직접 구현하는 현업 담당자. 이 과정의 주 대상이다 |
 | <span id="term-ai-builder">**AI Builder**</span> | Power Automate 안에서 제공하는 AI 기능 모음. 이 과정에서는 적재 흐름의 이력서 텍스트 추출·구조화에 사용한다 (Lab 4) |
+| <span id="term-json">**JSON**</span> | JSON(JavaScript Object Notation)은 시스템 간에 데이터를 주고받기 위해 사용하는 경량 데이터 형식입니다. 사람이 읽기 쉽고 컴퓨터가 처리하기 쉬워 Copilot Studio, Power Automate, API 연동 등에서 널리 사용됩니다. JSON은 `Key: Value` 구조를 기본으로 하며, 객체(`{}`)와 배열(`[]`)을 조합해 다양한 데이터를 표현합니다. [json.org](https://www.json.org/json-ko.html)|
 
