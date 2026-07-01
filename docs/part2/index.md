@@ -16,3 +16,6 @@ has_children: true
 | Lab 5 | 승인 흐름 — 비동기 HITL |
 | Lab 6 | 면접 확정 (흐름) — 승인 보존 트랜잭션 |
 | Lab 7 | 면접 확정 (토픽) — 대화형 HITL |
+
+{: .note }
+Outlook을 쓸 수 없다면 [Lab 4-대안. 적재 흐름 (Outlook 미사용)](./lab4-alt.md)으로 진행하세요. 트리거만 다를 뿐 결과물은 Lab 4와 동일합니다.

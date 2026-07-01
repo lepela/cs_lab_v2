@@ -44,7 +44,7 @@ nav_order: 2
 
 ## 단계
 
-1. 왼쪽 메뉴 **에이전트** → **빈 에이전트**를 클릭합니다.
+1. [https://copilotstudio.microsoft.com](https://copilotstudio.microsoft.com/)에 접속하여, 왼쪽 메뉴 **에이전트** → **빈 에이전트**를 클릭합니다.
 
     ![에이전트 → 빈 에이전트](../../assets/lab2/01.png)
 
