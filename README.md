@@ -1,7 +1,7 @@
 # Copilot Studio 핸즈온 Lab — HR 채용 자동화
 
 > **"AI에게 일을 맡기되, 결정은 사람이 내립니다."**
-> Power Automate + Copilot Studio로 이력서 접수부터 면접 확정까지 HR 채용 자동화를 **직접 만들어 보는** 시티즌 개발자 대상 중급 핸즈온 과정 (약 5.5시간).
+> Power Automate + Copilot Studio로 이력서 접수부터 면접 확정까지 HR 채용 자동화를 **직접 만들어 보는** 시티즌 개발자 대상 중급 핸즈온 과정 (7시간).
 
 [![pages-build-deployment](https://github.com/lepela/cs_lab_v2/actions/workflows/pages.yml/badge.svg)](https://github.com/lepela/cs_lab_v2/actions/workflows/pages.yml)
 
@@ -56,13 +56,11 @@ GitHub Pages(Actions)로 배포됩니다.
 
 ---
 
-## 상태 (작업 중)
+## 상태
 
-이 교안은 **재구성 v2 진행 중**입니다.
-
-- 본문(오프닝·Lab 1~7·피날레·부록) 초안 작성 완료
-- 스크린샷은 현재 **플레이스홀더**(placehold.co) — 실제 캡처로 교체 예정
-- 일부 시간·환경 세부(Lab 1 환경 배포 방식, 토픽 골격 YAML)는 빌드·계측에 맞춰 보정 중
+- 본문(Lab 1~7·부록) 작성 완료
+- Lab 1~7 스크린샷 실이미지 적용 완료
+- Lab 1 환경 초기화 흐름(Prev1·Prev2·Prev3) 확정·검증 완료
 
 ## 데이터 고지
 
@@ -70,4 +68,4 @@ GitHub Pages(Actions)로 배포됩니다.
 
 ---
 
-*이 교안은 Claude와 협업하여 제작 중입니다.*
+*이 교안은 Claude · ChatGPT · Gemini와 협업하여 제작했습니다.*
